@@ -75,16 +75,20 @@ address {
 
 /* HEADER */
 
-.page {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
-.page-header {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-logo {
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
   margin-right: 93px;
   font-weight: 700;
   font-size: 26px;
@@ -92,16 +96,10 @@ address {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
 .accent {
   color: var(--button-color);
 }
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
+.nav__list {
   display: flex;
   margin: 0;
   padding: 0;

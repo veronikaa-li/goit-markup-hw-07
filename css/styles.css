@@ -1,6 +1,6 @@
-/* GENERAL STYLES*/
 
-body {
+
+/* body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--accent-color);
   color: var(--primary-text-color);
@@ -71,7 +71,7 @@ address {
 .btn:focus {
   background-color: var(--button-color);
   color: var(--accent-color);
-}
+} */
 
 /* HEADER */
 

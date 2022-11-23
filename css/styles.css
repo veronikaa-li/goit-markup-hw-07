@@ -75,7 +75,7 @@ address {
 
 /* HEADER */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 .header__container {
@@ -93,11 +93,11 @@ address {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
-}
-.accent {
+} */
+/* .header__logo--accent {
   color: var(--button-color);
-}
-.nav__list {
+} */
+/* .nav__list {
   display: flex;
   margin: 0;
   padding: 0;
@@ -134,8 +134,8 @@ address {
   height: 4px;
   background: var(--button-color);
   border-radius: 2px;
-}
-.header__contact {
+} */
+/* .header__contact {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -157,11 +157,11 @@ address {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts__icon {
+.header__contact--icon {
   margin-right: 10px;
   fill: currentColor;
-}
-.header__link {
+} */
+/* .header__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -177,7 +177,7 @@ address {
 .link:hover,
 .link:focus {
   color: var(--button-color);
-}
+} */
 
 
 /* .header-link.current {
@@ -192,7 +192,7 @@ address {
 
 /* MAIN */
 
-.hero {
+/* .hero {
   background-color: var(--hero-backgroud-color);
   padding: 200px 0;
   max-width: 1600px;
@@ -235,11 +235,11 @@ address {
   color: var(--accent-color);
   background: var(--button-color);
   border: none;
-}
+} */
 
 /*  About us  */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -250,9 +250,9 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.about {
+/* .about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -288,11 +288,11 @@ address {
   height: 120px;
   background-color: var(--icon-background-color);
   border-radius: 4px;
-}
+} */
 
 /* --Чим ми займаємось--*/
 
-.picture {
+/* .picture {
   padding-bottom: 94px;
 }
 
@@ -332,11 +332,11 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /*  Our team  */
 
-.team {
+/* .team {
   background-color: var(--icon-background-color);
   padding: 94px 0;
 }
@@ -383,9 +383,9 @@ address {
   text-align: center;
 
   color: var(--title-text-color);
-}
+} */
 
-.socials__list {
+/* .socials__list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -410,7 +410,7 @@ address {
 }
 .socials__icon {
   fill: currentColor;
-}
+} */
 
 /* Clients */
 

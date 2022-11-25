@@ -126,6 +126,9 @@ address {
 .header__link:hover, .header__link:focus {
   color: var(--button-color);
 }
+.header__link--current::after {
+  color: var(--button-color);
+}
 
 .header__contact {
   display: -webkit-box;
@@ -212,6 +215,10 @@ address {
   color: var(--button-color);
 }
 
+.nav__link--current {
+  color: var(--button-color);
+}
+
 .nav__link--current::after {
   content: "";
   position: absolute;
@@ -222,9 +229,6 @@ address {
   height: 4px;
   background: var(--button-color);
   border-radius: 2px;
-}
-.nav__link--current::after--current {
-  color: var(--button-color);
 }
 
 .hero {

@@ -28,9 +28,13 @@
     &:focus {
       color: var(--button-color);
     }
-   
   }
- 
+
+.nav__link--current {
+    color: var(--button-color);
+    
+  }
+
 .nav__link--current::after {
     content: '';
     position: absolute;
@@ -41,10 +45,5 @@
     height: 4px;
     background: var(--button-color);
     border-radius: 2px;
-
-    
-    &--current {
-      color: var(--button-color);
-    }
 
   }
